@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <div className='NavBar-Container'>
         <div className='NavBar-Logo'>
-            <img src={Logo} width={150} alt="Pure Shenandoah"/>
+            <img src={Logo} width={150} height={75} alt="Pure Shenandoah"/>
         </div>
         <div className='NavBar-Text'>
             <h3>SHOP ALL</h3>
