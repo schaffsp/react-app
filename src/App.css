@@ -46,13 +46,25 @@
   border-radius: 1em;
 }
 
-/*    SECTION 2   */
-.Section2-Container {
+/*    SECTION    */
+.Section-Container {
   display: flex;
   height: 100vh;
 }
 
-.Section2-Element {
+.Section-Header {
+  font-weight: 900;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.Section-Paragraph {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: large;
+}
+
+.Section-Element {
   flex: 1;
   display: flex;
   flex-direction: column;
